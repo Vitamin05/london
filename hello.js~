@@ -1,6 +1,6 @@
 
 // Our first server
-/*
+
 var http = require('http');
 
 http.createServer(function (req, res) {
@@ -8,8 +8,8 @@ http.createServer(function (req, res) {
 }).listen(3000, function () {
     console.log('Server started somewhere');
 });
-*/
 
+/*
 var http = require('http');
 var fs = require('fs');
 
@@ -24,3 +24,4 @@ fs.readFile('./web.html', function(err,html){
 	}).listen(3000);
 });
 
+*/
