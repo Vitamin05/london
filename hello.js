@@ -1,6 +1,7 @@
 
 // Our first server
 var http = require('http');
+var PORT = process.env.PORT || 3000;
 
 var handleRequest = function (incomingRequest, response) {
     console.log('Request in');
@@ -9,7 +10,7 @@ var handleRequest = function (incomingRequest, response) {
 
 var server = http.createServer(handleRequest);
 
-server.listen(3000, function () {
+server.listen(PORT, function () {
     console.log('Server started somewhere');
 });
 
